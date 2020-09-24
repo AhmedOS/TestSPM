@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/AhmedOS/TestSPM/releases/download/9.1.7/Instabug.xcframework.zip" }
   s.library      = 'z'
   s.frameworks   = 'AVFoundation', 'CoreGraphics', 'CoreMotion', 'SystemConfiguration', 'CoreTelephony', 'UIKit', 'CoreMedia', 'CoreVideo', 'CoreData'
-  s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Instabug/"' }
+  #s.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Instabug/"' }
   s.requires_arc = true
   #s.source_files = 'Instabug.xcframework/ios-arm64_armv7/Headers/*.{h}'
   s.vendored_frameworks = 'Instabug.xcframework'
