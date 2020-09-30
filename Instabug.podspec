@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author        = { "Instabug" => "contactus@instabug.com" }
   s.platform      = :ios, '9.0'
+  s.cocoapods_version = '>= 1.10.0.rc.1'
   s.swift_version = '5.1'
   s.source        = { :http => "https://github.com/AhmedOS/TestSPM/releases/download/9.1.7/Instabug.xcframework.zip" }
   s.library       = 'z'
